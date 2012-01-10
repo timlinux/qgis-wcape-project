@@ -23,8 +23,10 @@ from PyQt4 import QtCore, QtGui
 from ui_muncompdms import Ui_MuncompDMS
 # create the dialog for zoom to point
 class MuncompDMSDialog(QtGui.QDialog):
-    def __init__(self):
-        QtGui.QDialog.__init__(self)
-        # Set up the user interface from Designer.
-        self.ui = Ui_MuncompDMS()
-        self.ui.setupUi(self)
+  def __init__(self):
+    QtGui.QDialog.__init__(self)
+    # Set up the user interface from Designer.
+    self.ui = Ui_MuncompDMS()
+    self.ui.setupUi(self)
+
+#accept
